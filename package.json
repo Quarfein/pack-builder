@@ -1,6 +1,6 @@
 {
   "name": "pack-builder",
-  "module": "index.js",
+  "module": "app.js",
   "type": "module",
   "private": true,
   "devDependencies": {
@@ -8,5 +8,8 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.18"
   }
 }
