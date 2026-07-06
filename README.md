@@ -10,3 +10,10 @@ It is supposed to generate an mrpack file, which has few sources about its real 
 We want to use it to export existing mrpack files, create new ones, and manage to do functional verifications (depedencies, incompaibilities, and fill/manage those out).
 
 We also want to just have to change a version number on the conf file and have the tool manage everything all by itself!
+
+### Project dependencies (or useful components to investigate)
+- js-yaml
+- commander
+- @inquirer/prompts
+- chalk
+- proxyfly
